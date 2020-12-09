@@ -11,7 +11,7 @@ https://github.com/EvineDeng/jd-base/wiki/Docker
 
 # 安装
 
-本人只有ARM设备，所以只在V Plus运行，理论上N1之类的ARM设备都可以运行，前提是要有docker，当然也要有足够的空间，其他版本可自行编译（插件这玩意我也不懂，自行测试）
+本人只有ARM设备，所以只在V Plus（aarch64）运行，理论上N1之类的ARM设备都可以运行，前提是要有docker，当然也要有足够的空间，其他版本可自行编译（插件这玩意我也不懂，自行测试）
 
 # 功能
 

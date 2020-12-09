@@ -1,0 +1,11 @@
+{
+    "luci-x-wool": {
+        "description": "Luci for JD dailybonus Script ",
+        "read": {
+            "uci": [ "x-wool" ]
+        },
+        "write": {
+            "uci": [ "x-wool" ]
+        }
+    }
+}

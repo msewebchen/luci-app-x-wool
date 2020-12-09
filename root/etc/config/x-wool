@@ -1,0 +1,9 @@
+config global
+	option sharecode_sc '0'
+	option jd_dir '/opt/dockerjd'
+	option serverchan_enable '0'
+	option sc_update '0'
+	option beansignstop '0'
+	option notify '2'
+	option gitupdate_enable '0'
+	option cron_enable '0'

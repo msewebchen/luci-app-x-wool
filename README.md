@@ -16,7 +16,7 @@ https://github.com/EvineDeng/jd-base/wiki/Docker
 # 功能
 
 自行体验
-![Image text]https://github.com/XiaYi1002/luci-app-x-wool/blob/master/img/%E7%95%8C%E9%9D%A2.png)
+![image](https://github.com/XiaYi1002/luci-app-x-wool/blob/master/img/%E7%95%8C%E9%9D%A2.png)
 # 非常感谢
 
 

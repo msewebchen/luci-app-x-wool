@@ -1,12 +1,15 @@
 # luci-app-x-wool
 
 本插件基于chongshengB修改的京东签到插件（薅羊毛服务）
-半吊子一个，代码基本靠百度，只按自己需求进行一些列魔改
+
+半吊子一个，只按自己需求进行一些列魔改，代码基本靠百度，所以代码看起来是那么的杂乱无章与繁琐
 
 # 介绍
 
 用于管理openwrt下docker版京东签到脚本
+
 仅适配：
+
 https://github.com/EvineDeng/jd-base/wiki/Docker
 
 # 安装
@@ -17,6 +20,7 @@ https://github.com/EvineDeng/jd-base/wiki/Docker
 
 自行体验
 ![image](https://github.com/XiaYi1002/luci-app-x-wool/blob/master/img/%E7%95%8C%E9%9D%A2.png)
+
 # 非常感谢
 
 

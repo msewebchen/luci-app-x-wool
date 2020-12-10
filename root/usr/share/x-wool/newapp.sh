@@ -84,6 +84,7 @@ b_run() {
 	up_code
 }
 
+#更新cookies
 up_code() {
 	jd_dir2=$(uci_get_by_type global jd_dir)
 	sckey=$(uci_get_by_type global serverchan)
@@ -186,7 +187,7 @@ kkk() {
     rm -rf $jd_dir2/log/crondiy.log
 # 增加更新日期显示
 	sed -i '/更新时间/d' $jd_dir2/crontab.list
-	echo "更新时间：$time" >>$jd_dir2/crontabs.sample
+	echo "# 更新时间：$time" >>$jd_dir2/crontabs.sample
 	docker exec jd crontab /root/crontabs.sample
 	docker exec -i jd cp /etc/crontabs/root /root/dockercrontabs.log
 	sed -i '/x-wool\/newapp/d' /etc/crontabs/root
@@ -196,7 +197,7 @@ kkk() {
 	rm -rf $jd_dir2/dockercrontabs.log
 	else
 	sed -i '/更新时间/d' $jd_dir2/crontab.list
-	echo "更新时间：$time" >>$jd_dir2/crontab.list
+	echo "# 更新时间：$time" >>$jd_dir2/crontab.list
 	docker exec jd crontab /root/crontab.list
 	docker exec -i jd cp /etc/crontabs/root /root/dockercrontabs.log
 	cp $jd_dir2/dockercrontabs.log /www/x-wool-cron.htm
